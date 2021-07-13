@@ -4,8 +4,15 @@ Fictional scenario: Customers provide reviews of your company’s products, whic
 
 ## Project Outline:
 
-tbd.
+- Use an existing ML service (Amazon Comprehend)
+- Train an own ML model
+- Deploy the model as a FaaS with AWS Lambda
+- Create an application using flask and containerize the API
+- Develop a simple HTML-Frontend and host it on AmazonS3
 
 ## Tech Stack:
 
-tbd.
+- NLTK
+- Flask
+- Docker
+- AWS (Comprehend, Lambda, S3)
